@@ -38,7 +38,7 @@ def arg_parser() -> argparse.Namespace:
         "-v",
         "--version",
         action="version",
-        version="0.0.1",
+        version=get_version(),
         help="View BioStructBenchmark version number",
     )
 
