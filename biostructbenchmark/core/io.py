@@ -9,7 +9,6 @@ from Bio.PDB import MMCIFParser, PDBParser, Structure
 from pathlib import Path
 
 
-parser = None
 parser_type = {".cif": MMCIFParser(), ".pdb": PDBParser()}
 
 
