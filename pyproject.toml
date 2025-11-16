@@ -21,6 +21,9 @@ dependencies = [
 [project.urls]
 "Homepage" = "https://github.com/BioStructBenchmark/BioStructBenchmark"
 
+[project.scripts]
+biostructbenchmark = "biostructbenchmark.__main__:main"
+
 [build-system]
 requires = ["setuptools>=80.9.0"]
 build-backend = "setuptools.build_meta"
